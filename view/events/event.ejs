@@ -1,0 +1,365 @@
+<!-- header -->
+<%- include ('../partials/header.ejs') %>
+    <!-- navbar -->
+    <%- include('../partials/navbar.ejs') %>
+
+        <div class="button-container w-100">
+            <ul class="nav nav-pills mb-3 w-100 d-flex flex-wrap justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item   me-2" role="presentation">
+                    <button class="nav-link event-button" id="pills-pre_events-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-pre_events" type="button" role="tab" aria-controls="pills-pre_events"
+                        aria-selected="true">
+                        Anti-Diabetic Drugs
+                    </button>
+                </li>
+                <li class="nav-item  me-2" role="presentation">
+                    <button class="nav-link active event-button" id="pills-rhetorica-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-rhetorica" type="button" role="tab" aria-controls="pills-rhetorica"
+                        aria-selected="false">
+                        Anti-Hypertensive Drugs
+                    </button>
+                </li>
+                <li class="nav-item  me-2" role="presentation">
+                    <button class="nav-link event-button" id="pills-scientific-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-scientific" type="button" role="tab" aria-controls="pills-scientific"
+                        aria-selected="false">
+                        Antibiotics
+                    </button>
+                </li>
+
+                <li class="nav-item me-2" role="presentation">
+                    <button class="nav-link event-button" id="pills-analytical-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-analytical" type="button" role="tab" aria-controls="pills-analytical"
+                        aria-selected="false">
+                        Anti-Asthmatic Drugs
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content w-100 tab-flex" id="pills-tabContent">
+            <!-- <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+                <strong>Important!</strong> You can only register for a maximum of three events
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div> -->
+
+            <!-- ************************ pre-events ********************************* -->
+
+
+            <div class="tab-pane fade" id="pills-pre_events" role="tabpanel" aria-labelledby="pills-pre_events-tab">
+
+                <div class="event-card d-flex flex-wrap justify-content-around align-items-center w-100 mb-50">
+                    <div class="event-img  me-50">
+                        <img src="/image/event_img/lymphocytes.jpeg" alt="" srcset="">
+                    </div>
+                    <div class="event-content">
+                        <div class="event-title mb-5">
+                            <h1>Insulin</h1>
+                        </div>
+                        <div class="event-text">
+                            <p class="text-justify">Insulin is a hormone that is produced naturally in our bodies. Its main role is to allow cells throughout the body to uptake glucose (sugar) and convert it into a form that can be used by these cells for energy. Naturally occurring human insulin is made by beta cells within the pancreas, but people with diabetes have little or no natural insulin release.Insulin is mostly used to treat type 1 diabetes but can be used in people with type 2 diabetes if insulin levels remain low despite the use of other types of medications. Insulin may also be given to pregnant women who develop a type of diabetes during pregnancy called gestational diabetes.</p>
+                        </div>
+                        <div class="card-btn-container d-flex flex-wrap mt-5">
+                            <!-- <button type="button" class="btn event-rule-btn me-5 px-5 py-2"> Rules </button> -->
+                            <a href="https://www.drugs.com/drug-class/insulin.html"
+                                type="button" class="btn event-reg-btn px-5 py-2"> Brand | Generic Drugs </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card d-flex flex-wrap justify-content-around align-items-center w-100 mb-50">
+                    <div class="event-img  me-50">
+                        <img src="/image/event_img/lymphocytes1.jpeg" alt="" srcset="">
+                    </div>
+                    <div class="event-content">
+                        <div class="event-title mb-5">
+                            <h1>Prandin</h1>
+                        </div>
+                        <div class="event-text">
+                            <p class="text-justify">Prandin work by stimulating the pancreas to release insulin in response to a meal. It closes ATP-dependent potassium channels in functioning pancreatic beta cells. This blockade of potassium channels depolarizes the beta cells, which leads to opening of calcium channels resulting in influx of calcium. Increased intracellular calcium induces insulin secretion.</p>
+                        </div>
+                        <div class="card-btn-container d-flex flex-wrap mt-5">
+                            <!-- <button type="button" class="btn event-rule-btn me-5 px-5 py-2"> Rules </button> -->
+                            <a href="https://www.drugs.com/drug-class/meglitinides.html"
+                                type="button" class="btn event-reg-btn px-5 py-2"> Brand | Generic Drugs </a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ********************************** Rhetorica *********************************** -->
+
+
+
+            <div class="tab-pane fade show active" id="pills-rhetorica" role="tabpanel"
+                aria-labelledby="pills-rhetorica-tab">
+                <div class="event-card d-flex flex-wrap justify-content-around align-items-center w-100 mb-50">
+                    <div class="event-img me-50">
+                        <img src="/image/event_img/rhetorica/captopril.jpg" alt="" srcset="">
+                    </div>
+                    <div class="event-content">
+                        <div class="event-title mb-5">
+                            <h1>Captopril</h1>
+                        </div>
+                        <div class="event-text">
+                            <p class="text-justify">Captopril is an ACE inhibitor. ACE stands for angiotensin converting enzyme.Captopril is used to treat high blood pressure (hypertension), congestive heart failure, kidney problems caused by diabetes, and to improve survival after a heart attack.
+                            </p>
+                        </div>
+                        <div class="card-btn-container d-flex flex-wrap mt-5">
+                            
+
+                            <a href="https://www.drugs.com/captopril.html" type="button" class="btn event-reg-btn px-5 py-2"> Generic | Brand Drug</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card d-flex flex-wrap justify-content-around align-items-center w-100 mb-50">
+                    <div class="event-img me-50">
+                        <img src="/image/event_img/rhetorica/losartan.jpg" alt="" srcset="">
+                    </div>
+                    <div class="event-content">
+                        <div class="event-title mb-5">
+                            <h1>Losartan</h1>
+                        </div>
+                        <div class="event-text w-100">
+                            <p class="text-justify">Losartan belongs to a group of drugs called angiotensin II receptor antagonists. It keeps blood vessels from narrowing, which lowers blood pressure and improves blood flow.Losartan is used to treat high blood pressure (hypertension). It is also used to lower the risk of stroke in certain people with heart disease.
+
+                            </p>
+                        </div>
+                        <div class="card-btn-container d-flex flex-wrap mt-5">
+                            
+                            <a href="https://www.drugs.com/losartan.html" type="button" class="btn event-reg-btn px-5 py-2"> Generic | Brand Drug </a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="event-card d-flex flex-wrap justify-content-around align-items-center w-100 mb-50">
+                    <div class="event-img  me-50">
+                        <img src="/image/event_img/rhetorica/labetalol.jpeg" alt="" srcset="">
+                    </div>
+                    <div class="event-content">
+                        <div class="event-title mb-5">
+                            <h1>Labetalol</h1>
+                        </div>
+                        <div class="event-text">
+                            <p class="text-justify">Labetalol is a beta-blocker that is used to treat hypertension (high blood pressure). Labetalol oral is sometimes given with other blood pressure medications.Labetalol injection is used when hypertension is severe</p>
+
+                        </div>
+                        <div class="card-btn-container d-flex flex-wrap mt-5">
+                            
+                            <a href="https://www.drugs.com/mtm/labetalol.html" type="button" class="btn event-reg-btn px-5 py-2"> Generic | Brand Drug </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- *************************************** scientific *********************************** -->
+            <div class="tab-pane fade" id="pills-scientific" role="tabpanel" aria-labelledby="pills-scientific-tab">
+                <div class="event-card d-flex flex-wrap justify-content-around align-items-center w-100 mb-50">
+                    <div class="event-img  me-50">
+                        <img src="/image/event_img/scientific events/amox.jpeg" alt="" srcset="">
+                    </div>
+                    <div class="event-content">
+                        <div class="event-title mb-5">
+                            <h1>Amoxicillin</h1>
+                        </div>
+                        <div class="event-text">
+
+                            <p class="text-justify">Amoxicillin is a penicillin antibiotic that fights bacteria. Amoxicillin is used to treat many different types of infection caused by bacteria, such as tonsillitis, bronchitis, pneumonia, and infections of the ear, nose, throat, skin, or urinary tract.Amoxicillin is also sometimes used together with another antibiotic called clarithromycin (Biaxin) to treat stomach ulcers caused by Helicobacter pylori infection. This combination is sometimes used with a stomach acid reducer called lansoprazole (Prevacid)
+                            </p>
+
+                        </div>
+                        <div class="card-btn-container d-flex flex-wrap mt-5">
+                            
+                            <a href="https://www.drugs.com/amoxicillin.html" type="button" class="btn event-reg-btn px-5 py-2"> Generic | Brand Drug </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card d-flex flex-wrap justify-content-around align-items-center w-100 mb-50">
+                    <div class="event-img  me-50">
+                        <img src="/image/event_img/scientific events/azith.jpeg" alt="" srcset="">
+                    </div>
+                    <div class="event-content">
+                        <div class="event-title mb-5">
+                            <h1>Azithromycin</h1>
+                        </div>
+                        <div class="event-text">
+                            <p class="text-justify">Azithromycin is an antibiotic that fights bacteria.Azithromycin is used to treat many different types of infections caused by bacteria, such as respiratory infections, skin infections, ear infections, eye infections, and sexually transmitted diseases.
+                            </p>
+                        </div>
+                        <div class="card-btn-container d-flex flex-wrap mt-5">
+                           
+                            <a href="https://www.drugs.com/azithromycin.html" type="button" class="btn event-reg-btn px-5 py-2">Generic | Brand Drug  </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card d-flex flex-wrap justify-content-around align-items-center w-100 mb-50">
+                    <div class="event-img  me-50">
+                        <img src="/image/event_img/scientific events/clin.jpg" alt="" srcset="">
+                    </div>
+                    <div class="event-content">
+                        <div class="event-title mb-5">
+                            <h1>Clindamycin</h1>
+                        </div>
+                        <div class="event-text">
+                            <p class="text-justify">Clindamycin is an antibiotic that fights bacteria in the body.Clindamycin is used to treat serious infections caused by bacteria.</p>
+                        </div>
+                        <div class="card-btn-container d-flex flex-wrap mt-5">
+                            
+                            <a href="https://www.drugs.com/clindamycin.html" type="button" class="btn event-reg-btn px-5 py-2"> Generic | Brand Drug</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ********************************************** Analytical ************************************** -->
+            <div class="tab-pane fade" id="pills-analytical" role="tabpanel" aria-labelledby="pills-analytical-tab">
+
+               
+                <div class="event-card d-flex flex-wrap justify-content-around align-items-center w-100 mb-50">
+                    <div class="event-img me-50">
+                        <img src="/image/event_img/magna carta/pre.jpeg" alt="" srcset="">
+                    </div>
+                    <div class="event-content">
+                        <div class="event-title mb-5">
+                            <h1>Prednisone</h1>
+                        </div>
+                        <div class="event-text">
+                            <p class="text-justify">Prednisone is a corticosteroid medicine used to decrease inflammation and  keep your immune system in check, if it is overactive. Prednisone is used to treat allergic disorders, skin conditions, ulcerative colitis, Crohn’s disease, arthritis, lupus, psoriasis, asthma, chronic obstructive pulmonary disease (COPD) and many more conditions.</p>
+                        </div>
+                        <div class="card-btn-container d-flex flex-wrap mt-5">
+                            
+                            <a href="https://www.drugs.com/prednisone.html" type="button" class="btn event-reg-btn px-5 py-2"> Generic | Brand Drug </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card d-flex flex-wrap justify-content-around align-items-center w-100 mb-50">
+                    <div class="event-img me-50">
+                        <img src="/image/event_img/magna carta/pharmathon.png" alt="" srcset="">
+                    </div>
+                    <div class="event-content">
+                        <div class="event-title mb-5">
+                            <h1>Singulair</h1>
+                        </div>
+                        <div class="event-text">
+                            <p class="text-justify">Singulair is a leukotriene (loo-koe-TRY-een) inhibitor. Leukotrienes are chemicals your body releases when you breathe in an allergen (such as pollen). These chemicals cause swelling in your lungs and tightening of the muscles around your airways, which can result in asthma symptoms.</p>
+                        </div>
+                        <div class="card-btn-container d-flex flex-wrap mt-5">
+                            
+                            <a href="https://www.drugs.com/singulair.html" type="button" class="btn event-reg-btn px-5 py-2"> Generic | Brand Drug </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card d-flex flex-wrap justify-content-around align-items-center w-100 mb-50">
+                    <div class="event-img  me-50">
+                        <img src="/image/event_img/magna carta/mon.jpeg" alt="" srcset="">
+                    </div>
+                    <div class="event-content">
+                        <div class="event-title mb-5">
+                            <h1>Montelukast</h1>
+                        </div>
+                        <div class="event-text">
+                            <p class="text-justify">Montelukast helps to reduce inflammation and may be used to prevent asthma attacks in adults and children at least 2 years old.Montelukast is also used to prevent exercise-induced bronchoconstriction (a narrowing of the air passages in the lungs due to exercise that is also known as exercise-induced asthma) in adults and children who are at least 6 years old.</p>
+                        </div>
+                        <div class="card-btn-container d-flex flex-wrap mt-5">
+                            
+                            <a href="https://www.drugs.com/montelukast.html" type="button" class="btn event-reg-btn px-5 py-2"> Generic | Brand Drug </a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+        <!-- ************************** End of tab content ************************-->
+
+        <!-- ****************************************** FAQ section ****************************************** -->
+
+        
+                    <!-- footer -->
+
+
+
+                    <%- include('../partials/footer.ejs') %>
+                        <style>
+                            .alert {
+                                position: fixed;
+                                top: 10%;
+                                z-index: 10;
+                                left: 35%;
+                                width: 20rem;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                flex-direction: column;
+                                font-family: 'Open Sans', sans-serif;
+                            }
+
+
+                            .welcome_txt {
+                                font-size: 20px;
+                                font-weight: 600;
+                                color: black;
+
+                            }
+
+                            .text {
+                                text-align: center;
+                                font-size: 13px;
+                                color: black;
+                            }
+
+                            .name_ {
+                                font-size: 25px;
+                                font-weight: 600;
+                                text-transform: capitalize;
+                                color: #007ea7;
+
+                            }
+
+                            .pay-btn {
+                                padding: 3px 25px;
+                            }
+
+                            @media (max-width: 770px) {
+                                .alert {
+                                    left: 25%;
+                                }
+                            }
+
+                            @media (max-width: 589px) {
+                                .alert {
+                                    left: 20%;
+                                }
+                            }
+
+                            @media (max-width: 475px) {
+                                .alert {
+                                    left: 18%;
+                                }
+                            }
+
+                            @media (max-width: 421px) {
+                                .alert {
+                                    left: 10%;
+                                }
+                            }
+                        </style>
+                        <script src="/js/event.js"></script>

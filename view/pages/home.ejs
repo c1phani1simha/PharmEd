@@ -1,0 +1,113 @@
+<!-- header -->
+<%- include ('../partials/header.ejs') %>
+    <!-- navbar -->
+    <%- include('../partials/navbar.ejs') %>
+
+        <!-- drop your code here 👇👇👇👇-->
+
+        <!-- ******************************* carousel ********************************* -->
+
+
+
+        <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="box">
+                        <img src="/image/carousel_images/cr11.png" alt="">
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="box">
+                        <img src="image/carousel_images/2_20230131_010944_0001.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- ************** About Section ******************** -->
+
+        <section id="about">
+            <h1 class="section-title mb-5 mt-3 w-100 text-center"> Today's Top Stories </h1>
+
+            <div class="about-container justify-content-center ">
+                <!-- https://www.youtube.com/embed/hhf6Iw1VyRs -->
+                <div class="about-video video-margin-top">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KHuqTxbOtLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+               
+                <div class="about-text mt-5 ms-auto">
+
+                    <p class="">Health needs to be a central agenda for the G20 2023. It has been one of the priority areas for G20 deliberations since 2017, when the first meet of health ministers of G20 countries was organised by the German presidency. The G20 now has health finance in its financial stream and health systems development in the Sherpa stream. An annual G20 meeting of health ministers and a joint health and finance task force reflects the seriousness the subject has gained. The Berlin Declaration 2017 of the G20 health ministers provided a composite approach focusing on pandemic preparedness, health system strengthening and tackling antimicrobial resistance. The Covid-19 pandemic gave added urgency to pandemic preparedness and the Indonesian presidency in 2022 made it the major focus. The Indian presidency needs to advance these agendas.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- dummy -->
+
+
+        <!-- ******************** Event section ******************* -->
+        <section id="events">
+            <h1 class="text-center section-title mb-5"> Tools </h1>
+            <div class="events-container d-flex flex-wrap w-100 ">
+
+
+                <div class="event-card text-center mb-5">
+                    <div class="event-img-box">
+                        <img src="image/event_img/rhetorica/magna carta2.png" alt="" srcset="" class="w-100">
+                    </div>
+                    <div class="event-title mt-5">
+                        BMI Calculator
+                    </div>
+                    <div class="event-text  mt-3 ps-3 pe-2">
+                        <p>The body mass index or BMI is a measure of how much body mass you have in relation to your height and weight.The BMI figures let you know whether you are within normal weight range, or if you are underweight or overweight.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="event-card text-center mb-5">
+                    <div class="event-img-box">
+                        <img src="image/event_img/scientific events/Polaris.png" alt="" srcset="" class="w-100">
+                    </div>
+                    <div class="event-title mt-5">
+                        Ovulation Calculator
+                    </div>
+                    <div class="event-text mt-3 ps-3 pe-2">
+                        <p>ovulation calculator uses the method of tracking menstrual cycles in order to predict when ovulation occurs. Since day 10-18 of the menstrual cycle is typically the most fertile phase of the menstrual cycle, women with regular cycles can fairly easily determine when they are ovulating and most likely to conceive.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="event-card text-center mb-5">
+                    <div class="event-img-box">
+                        <img src="image/event_img/magna carta/impulse.jpeg" alt="" srcset="" class="w-100">
+                    </div>
+                    <div class="event-title mt-5">
+                        Drugs Interaction Checker
+                    </div>
+                    <div class="event-text  mt-3 ps-3 pe-2">
+                        <p>The drug interactions checker will check for interactions between the drugs you enter, any possible food or disease interactions and pregnancy / breastfeeding warnings.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <a href="/events" type="button" class=" btn  " id="btn-explore">Explore</a>
+
+            </div>
+        </section>
+
+        <!-- footer -->
+        <%- include('../partials/footer.ejs') %>
